@@ -1,0 +1,10 @@
+POST http://localhost:8080/events HTTP/1.1
+Content-Type: "application/json"
+Authorization : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvbTFAY29tLmNvbSIsImV4cCI6MTc1NjY2NjExMywidXNlcklkIjoxfQ.FIqwuwUAkqM4xPdPaQTPmdJEQSkf1v1OYzDWU5BEY1Q
+
+{
+    "name" : "Test1",
+    "description" : " deiuscxsdskdf",
+    "location": "loca tion",
+    "dateTime" : "2025-08-31T15:30:00.000Z"
+}
