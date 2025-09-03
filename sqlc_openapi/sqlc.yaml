@@ -1,0 +1,21 @@
+# version: "2"
+# sql:
+#   - engine: "postgresql"
+#     queries: "db/queries/*.sql"
+#     schema: "db/migrations/*.sql" # Use your migration directory as schema source
+#     gen:
+#       go:
+#         package: "db"
+#         out: "internal/db"
+#         sql_package: "database/sql" # Or "github.com/jmoiron/sqlx" if you prefer sqlx directly
+
+version: "2"
+sql:
+  - engine: "postgresql"
+    queries: "db/queries/"
+    schema: "db/migrations/"
+    gen:
+      go:
+        package: "db"
+        out: "internal/db"
+        sql_package: "database/sql"
